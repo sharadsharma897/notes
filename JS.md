@@ -2,7 +2,8 @@ Destructing
 Destructuring in Function Parameter Lists
 For example, if a function accepts a parameter that will contain an object it can be destructured to "pull out" the object properties and make them available as locally scoped variables (i.e., variables only available inside the function body).
 
-function storeOrder(order) {
+function storeOrder(order)
+ {
   localStorage.setItem('id', order.id);
   localStorage.setItem('currency', order.currency);
 }
